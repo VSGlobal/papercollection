@@ -6,25 +6,26 @@ import {
   openLink,
   TouchableOpacity,
   Dimensions,
-  Linking,
+  Linking
 } from 'react-native'
 import React from 'react'
 // import global from '../global'
-import {ScaledSheet} from 'react-native-size-matters'
+import { ScaledSheet } from 'react-native-size-matters'
 import versionData from '../../package.json'
 
-const MenuScreen = ({navigation}) => {
+const MenuScreen = ({ navigation }) => {
   const openLink = url => {
     Linking.openURL(url)
   }
 
   return (
-    <View style={{flex: 1}}>
+    <View style={{ flex: 1, backgroundColor: '#e8ecf9' }}>
       <View style={styles.categoryContainer}>
         <TouchableOpacity
           onPress={() => {
             navigation.goBack()
-          }}>
+          }}
+        >
           <Image
             source={require('../../assets/close.png')}
             style={styles.backbtn}
@@ -34,22 +35,26 @@ const MenuScreen = ({navigation}) => {
       <View style={styles.top}></View>
 
       <View
-        style={[styles.ThreeBox, {flexWrap: 'wrap', flexDirection: 'column'}]}>
+        style={[styles.ThreeBox, { flexWrap: 'wrap', flexDirection: 'column' }]}
+      >
         <View
           style={{
             flexDirection: 'row',
             width: Dimensions.get('screen').width * 0.8,
-            justifyContent: 'space-around',
-          }}>
+            justifyContent: 'space-around'
+          }}
+        >
           <TouchableOpacity
-            onPress={() => openLink('https://t.me/veesunetwork')}>
+            onPress={() => openLink('https://t.me/veesunetwork')}
+          >
             <Image
               source={require('../../assets/tele.png')}
               style={styles.upperBoxChilds}
             />
           </TouchableOpacity>
           <TouchableOpacity
-            onPress={() => openLink('https://www.instagram.com/vs.global')}>
+            onPress={() => openLink('https://www.instagram.com/vs.global')}
+          >
             <Image
               source={require('../../assets/instagram.png')}
               style={styles.upperBoxChilds}
@@ -58,9 +63,10 @@ const MenuScreen = ({navigation}) => {
           <TouchableOpacity
             onPress={() =>
               openLink(
-                'https://www.facebook.com/profile.php?id=100095097586771&mibextid=ZbWKwL',
+                'https://www.facebook.com/profile.php?id=100095097586771&mibextid=ZbWKwL'
               )
-            }>
+            }
+          >
             <Image
               source={require('../../assets/facebook.png')}
               style={styles.upperBoxChilds}
@@ -71,10 +77,12 @@ const MenuScreen = ({navigation}) => {
           style={{
             flexDirection: 'row',
             width: Dimensions.get('screen').width * 0.8,
-            justifyContent: 'space-around',
-          }}>
+            justifyContent: 'space-around'
+          }}
+        >
           <TouchableOpacity
-            onPress={() => openLink('https://github.com/VSGlobal')}>
+            onPress={() => openLink('https://github.com/VSGlobal')}
+          >
             <Image
               source={require('../../assets/github.png')}
               style={styles.upperBoxChilds}
@@ -83,16 +91,18 @@ const MenuScreen = ({navigation}) => {
           <TouchableOpacity
             onPress={() =>
               openLink(
-                'https://play.google.com/store/apps/dev?id=5521420784398616573',
+                'https://play.google.com/store/apps/dev?id=5521420784398616573'
               )
-            }>
+            }
+          >
             <Image
               source={require('../../assets/playstore.jpg')}
               style={[styles.upperBoxChilds]}
             />
           </TouchableOpacity>
           <TouchableOpacity
-            onPress={() => openLink('https://vsglobal.kesug.com')}>
+            onPress={() => openLink('https://vsglobal.kesug.com')}
+          >
             <Image
               source={require('../../assets/website.png')}
               style={styles.upperBoxChilds}
@@ -105,7 +115,8 @@ const MenuScreen = ({navigation}) => {
           onPress={() => {
             navigation.navigate('About')
           }}
-          style={styles.middleBoxChilds}>
+          style={styles.middleBoxChilds}
+        >
           <Image
             source={require('../../assets/aboutill.png')}
             style={styles.aboutimg}
@@ -115,16 +126,20 @@ const MenuScreen = ({navigation}) => {
               fontSize: 10,
               fontWeight: 'bold',
               textAlign: 'center',
-              color: 'black',
-            }}>
+              color: 'black'
+            }}
+          >
             About Us
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
           onPress={() => {
-            openLink('https://firebasestorage.googleapis.com/v0/b/old-papers-8288c.appspot.com/o/Privacypolicynew.html?alt=media&token=597175fd-6c29-45d9-8f78-2d927110d601')
+            openLink(
+              'https://firebasestorage.googleapis.com/v0/b/old-papers-8288c.appspot.com/o/Privacypolicynew.html?alt=media&token=597175fd-6c29-45d9-8f78-2d927110d601'
+            )
           }}
-          style={styles.middleBoxChilds}>
+          style={styles.middleBoxChilds}
+        >
           <Image
             source={require('../../assets/privacyill.png')}
             style={styles.aboutimg}
@@ -134,8 +149,9 @@ const MenuScreen = ({navigation}) => {
               fontSize: 10,
               fontWeight: 'bold',
               textAlign: 'center',
-              color: 'black',
-            }}>
+              color: 'black'
+            }}
+          >
             Privacy Policy
           </Text>
         </TouchableOpacity>
@@ -144,16 +160,18 @@ const MenuScreen = ({navigation}) => {
       <View
         style={[
           styles.ThreeBox,
-          {borderRadius: 20, padding: '3%', flexDirection: 'column'},
-        ]}>
-        <View style={{flexDirection: 'column'}}>
+          { borderRadius: 20, padding: '3%', flexDirection: 'column' }
+        ]}
+      >
+        <View style={{ flexDirection: 'column' }}>
           <Text
             style={{
               fontSize: 12,
               textAlign: 'center',
               color: 'gray',
-              fontWeight: '400',
-            }}>
+              fontWeight: '400'
+            }}
+          >
             This project is open source and available for development
           </Text>
           <Text
@@ -162,26 +180,29 @@ const MenuScreen = ({navigation}) => {
               textAlign: 'center',
               margin: '5%',
               color: 'black',
-              fontWeight: 'bold',
-            }}>
+              fontWeight: 'bold'
+            }}
+          >
             Respected Contributor
           </Text>
         </View>
-        <View style={{flexDirection: 'row'}}>
+        <View style={{ flexDirection: 'row' }}>
           <TouchableOpacity
-            onPress={() => openLink('https://github.com/VSGlobal')}>
+            onPress={() => openLink('https://github.com/VSGlobal')}
+          >
             <Image
               source={{
-                uri: 'https://avatars.githubusercontent.com/u/84082684?v=4',
+                uri: 'https://avatars.githubusercontent.com/u/84082684?v=4'
               }}
               style={styles.avtar}
             />
           </TouchableOpacity>
           <TouchableOpacity
-            onPress={() => openLink('https://github.com/Aarav-0')}>
+            onPress={() => openLink('https://github.com/Aarav-0')}
+          >
             <Image
               source={{
-                uri: 'https://avatars.githubusercontent.com/u/152461134?v=4',
+                uri: 'https://avatars.githubusercontent.com/u/152461134?v=4'
               }}
               style={styles.avtar}
             />
@@ -189,24 +210,31 @@ const MenuScreen = ({navigation}) => {
         </View>
       </View>
       <View style={styles.ThreeBox}>
-     
         <TouchableOpacity
           onPress={() => {
-           navigation.navigate('Upload')
+            navigation.navigate('Upload')
           }}
-          style={styles.middleBoxChilds}>
+          style={[
+            styles.middleBoxChilds,
+            { width: '100%', flexDirection: 'row' }
+          ]}
+        >
           <Image
-            source={require('../../assets/privacyill.png')}
+            source={require('../../assets/papers.png')}
             style={styles.aboutimg}
           />
           <Text
             style={{
-              fontSize: 10,
-              fontWeight: 'bold',
+              fontSize: 15,
+              fontWeight: '500',
               textAlign: 'center',
-              color: 'black',
-            }}>
-          Upload Your Paper
+              textAlignVertical: 'center',
+              color: 'gray',
+             
+              textTransform: 'uppercase'
+            }}
+          >
+            Upload Your Paper
           </Text>
         </TouchableOpacity>
       </View>
@@ -223,18 +251,20 @@ const MenuScreen = ({navigation}) => {
             position: 'absolute',
             left: 5,
             alignSelf: 'center',
-            fontSize: 12,
-          }}>
+            fontSize: 12
+          }}
+        >
           V - {versionData.version}
         </Text>
 
         <Text
           onPress={() =>
             openLink(
-              'https://play.google.com/store/apps/dev?id=5521420784398616573',
+              'https://play.google.com/store/apps/dev?id=5521420784398616573'
             )
           }
-          style={{alignSelf: 'center', fontSize: 12, fontWeight: 'bold'}}>
+          style={{ alignSelf: 'center', fontSize: 12, fontWeight: 'bold' }}
+        >
           VS Global
         </Text>
       </View>
@@ -245,7 +275,7 @@ const styles = ScaledSheet.create({
   categoryContainer: {
     height: '65@vs',
     justifyContent: 'center',
-    width: Dimensions.get('screen').width,
+    width: Dimensions.get('screen').width
   },
   backbtn: {
     width: '60@s',
@@ -253,10 +283,10 @@ const styles = ScaledSheet.create({
     marginLeft: '5%',
     resizeMode: 'contain',
     borderRadius: 60,
-    backgroundColor: 'white',
+    backgroundColor: 'white'
   },
   top: {
-    height: Dimensions.get('screen').height * 0.03,
+    height: Dimensions.get('screen').height * 0.03
   },
 
   ThreeBox: {
@@ -268,7 +298,7 @@ const styles = ScaledSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
-    backgroundColor: 'white',
+    backgroundColor: 'white'
   },
   upperBoxChilds: {
     width: Dimensions.get('screen').width * 0.1,
@@ -277,7 +307,7 @@ const styles = ScaledSheet.create({
     borderRadius: 30,
     resizeMode: 'contain',
     marginVertical: Dimensions.get('screen').width * 0.024,
-    marginHorizontal: Dimensions.get('screen').width * 0.024,
+    marginHorizontal: Dimensions.get('screen').width * 0.024
   },
   middleBoxChilds: {
     height: Dimensions.get('screen').height * 0.065,
@@ -285,12 +315,12 @@ const styles = ScaledSheet.create({
     borderRadius: 35,
     resizeMode: 'contain',
     alignSelf: 'center',
-    // backgroundColor: '#ffeceb',
-    marginHorizontal: Dimensions.get('screen').height * 0.008,
+    //  backgroundColor: '#ffeceb',
+    marginHorizontal: Dimensions.get('screen').height * 0.008
   },
   aboutimg: {
     height: Dimensions.get('screen').height * 0.045,
-    width: Dimensions.get('screen').width * 0.35,
+    width: Dimensions.get('screen').width * 0.25,
     resizeMode: 'contain',
     alignSelf: 'center',
   },
@@ -301,7 +331,7 @@ const styles = ScaledSheet.create({
     borderRadius: Dimensions.get('screen').height * 0.1,
     marginTop: Dimensions.get('screen').height * 0.06,
     // backgroundColor: '#ffeceb',
-    resizeMode: 'contain',
+    resizeMode: 'contain'
   },
   avtar: {
     height: Dimensions.get('screen').width * 0.07,
@@ -310,7 +340,7 @@ const styles = ScaledSheet.create({
     alignSelf: 'center',
     backgroundColor: 'white',
     borderRadius: 35,
-    marginHorizontal: 5,
+    marginHorizontal: 5
   },
   bottomView: {
     width: Dimensions.get('screen').width,
@@ -318,7 +348,7 @@ const styles = ScaledSheet.create({
     position: 'absolute',
     bottom: 0,
     flexDirection: 'row',
-    justifyContent: 'center',
-  },
+    justifyContent: 'center'
+  }
 })
 export default MenuScreen
