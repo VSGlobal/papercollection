@@ -18,7 +18,7 @@ const NavbarScreen = ({navigation, pdfTitle}) => {
       const result = await Share.share({
         title: 'App link',
         message:
-          'Install this app for Previous Year Papers , AppLink :https://play.google.com/store/apps/details?id=com.oldpapers',
+          'Install this app for Previous Year Papers , AppLink :https://play.google.com/store/apps/details?id=com.papercollection',
       })
       if (result.action === Share.sharedAction) {
         if (result.activityType) {

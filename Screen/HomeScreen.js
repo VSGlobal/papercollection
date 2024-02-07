@@ -289,7 +289,7 @@ const openLink = url => {
           style={[styles.noti_container, {backgroundColor: theme.bgI}]}
              onPress={() =>
             openLink(
-              'https://play.google.com/store/apps/developer?id=VS+Global',
+              'https://play.google.com/store/apps/dev?id=5521420784398616573',
             )
           }>
           <Image

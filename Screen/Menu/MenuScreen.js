@@ -1,36 +1,3 @@
-// import React, {useState, useEffect} from 'react'
-// import {
-//   SafeAreaView,
-//   FlatList,
-//   ScrollView,
-//   View,
-//   Share,
-//   Image,
-//   Pressable,
-//   Dimensions,
-//   Text,
-//   Alert,
-//   LayoutAnimation,
-//   Linking,
-//   Animated,
-//   TouchableOpacity,
-// } from 'react-native'
-
-// import styles from '../../Style/menu'
-// import versionData from '../../package.json'
-
-// import {NavigationContainer} from '@react-navigation/native'
-
-//   const image = {
-//     uri: 'https://firebasestorage.googleapis.com/v0/b/old-papers-8288c.appspot.com/o/image%2Finlogo.png?alt=media&token=4f540180-6bf8-46d2-a401-fc07b93d8650',
-//   }
-//   const openLink = url => {
-//     Linking.openURL(url)
-//   }
-//   return (
-//   )
-// }
-// export default MenuScreen
 import {
   View,
   Text,
@@ -50,11 +17,6 @@ const MenuScreen = ({navigation}) => {
   const openLink = url => {
     Linking.openURL(url)
   }
-  // const handlePress = () => {
-  //   Linking.openURL(
-  //     'https://firebasestorage.googleapis.com/v0/b/old-papers-8288c.appspot.com/o/Privacypolicynew.html?alt=media&token=597175fd-6c29-45d9-8f78-2d927110d601',
-  //   )
-  // }
 
   return (
     <View style={{flex: 1}}>
@@ -112,7 +74,7 @@ const MenuScreen = ({navigation}) => {
             justifyContent: 'space-around',
           }}>
           <TouchableOpacity
-            onPress={() => openLink('https://github.com/Mns9983')}>
+            onPress={() => openLink('https://github.com/VSGlobal')}>
             <Image
               source={require('../../assets/github.png')}
               style={styles.upperBoxChilds}
@@ -121,7 +83,7 @@ const MenuScreen = ({navigation}) => {
           <TouchableOpacity
             onPress={() =>
               openLink(
-                'https://play.google.com/store/apps/developer?id=VS+Global',
+                'https://play.google.com/store/apps/dev?id=5521420784398616573',
               )
             }>
             <Image
@@ -207,7 +169,7 @@ const MenuScreen = ({navigation}) => {
         </View>
         <View style={{flexDirection: 'row'}}>
           <TouchableOpacity
-            onPress={() => openLink('https://github.com/Mns9983')}>
+            onPress={() => openLink('https://github.com/VSGlobal')}>
             <Image
               source={{
                 uri: 'https://avatars.githubusercontent.com/u/84082684?v=4',
@@ -269,7 +231,7 @@ const MenuScreen = ({navigation}) => {
         <Text
           onPress={() =>
             openLink(
-              'https://play.google.com/store/apps/developer?id=VS+Global',
+              'https://play.google.com/store/apps/dev?id=5521420784398616573',
             )
           }
           style={{alignSelf: 'center', fontSize: 12, fontWeight: 'bold'}}>
