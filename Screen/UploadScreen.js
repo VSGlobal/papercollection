@@ -5,6 +5,7 @@ import {
   Dimensions,
   TouchableOpacity,
   Linking,
+  ToastAndroid,
   Alert,
   ScrollView,
   PermissionsAndroid,
@@ -176,12 +177,15 @@ const UploadScreen = ({ navigation }) => {
   const uploadImages = () => {
     // Check if there are selected images
     if (imageSource.length > 0) {
+      ToastAndroid.show('Uploading..', ToastAndroid.SHORT)
       imageSource.forEach(image => uploadImage(image.uri))
 
       setTimeout(() => {
         // After successful upload, set the status to 'Uploaded'
         setUploadStatus('Uploaded')
       }, 2000) // Simulating a delay, replace with actual upload time
+      ToastAndroid.show('Uploaded', ToastAndroid.SHORT)
+
     }
   }
 
@@ -275,7 +279,7 @@ const UploadScreen = ({ navigation }) => {
       {imageSource.length > 0 && uploadStatus === 'Uploaded' && (
         <TouchableOpacity onPress={clearImages}>
           <View style={styles.UploadViewr}>
-            <Text style={styles.UploadText}>Please Close me</Text>
+            <Text style={[styles.UploadText,{color:'red'}]}>Please Close me</Text>
           </View>
         </TouchableOpacity>
       )}
@@ -384,7 +388,7 @@ const styles = ScaledSheet.create({
     alignSelf: 'center',
     height: '40@vs',
     width: '200@s',
-    backgroundColor: 'red',
+    backgroundColor: 'white',
     marginVertical: 15,
     borderRadius: 40
   },
