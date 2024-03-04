@@ -80,10 +80,10 @@ const HomeScreen = ({route, navigation}) => {
           'Update Available',
           'Stay current, update your app for the latest features!',
           [
-            // {
-            //   text: 'Not Now', // Add 'Not Now' button
-            //   style: 'cancel', // Set style to cancel
-            // },
+            {
+              text: 'Not Now', // Add 'Not Now' button
+              style: 'cancel', // Set style to cancel
+            },
             {
               text: 'Update',
               onPress: () => {
@@ -301,7 +301,12 @@ const openLink = url => {
           </Text>
         </TouchableOpacity>
       </View>
-      <View
+      <TouchableOpacity
+        onPress={() => {
+          Linking.openURL(
+            'https://github.com/VSGlobal/papercollection',
+          )
+        }}
         style={{
           height: 60,
           width:'100%',
@@ -312,7 +317,7 @@ const openLink = url => {
           backgroundColor: 'transparent',
         }}>
         <Text style={{ color: 'black', textAlign: "center", padding: 5,paddingHorizontal:50, backgroundColor: 'white', borderRadius: 30, fontWeight:'bold', margin: 10, fontSize: 10, alignSelf:'center'}}>Now We Are Open Source</Text>
-      </View>
+      </TouchableOpacity>
     </View>
   )
 }

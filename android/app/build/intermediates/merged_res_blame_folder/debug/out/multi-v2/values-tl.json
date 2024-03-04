@@ -4,24 +4,24 @@
             "outputFile": "com.papercollection.app-mergeDebugResources-35:/values-tl/values-tl.xml",
             "map": [
                 {
-                    "source": "/home/mns/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/res/values-tl/values-tl.xml",
+                    "source": "C:\\Users\\micro\\.gradle\\caches\\transforms-3\\13659b94c66de92d98d7f8af61234b95\\transformed\\core-1.9.0\\res\\values-tl\\values-tl.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,146,223,302,385,472,556,632,706",
-                        "endColumns": "90,76,78,82,86,83,75,73,85",
-                        "endOffsets": "141,218,297,380,467,551,627,701,787"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "38,42,60,98,100,101,102,103,104",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3507,3924,5287,8425,8593,8680,8764,8840,8914",
-                        "endColumns": "90,76,78,82,86,83,75,73,85",
-                        "endOffsets": "3593,3996,5361,8503,8675,8759,8835,8909,8995"
+                        "startLines": "105",
+                        "startColumns": "4",
+                        "startOffsets": "9000",
+                        "endColumns": "100",
+                        "endOffsets": "9096"
                     }
                 },
                 {
-                    "source": "/home/mns/.gradle/caches/transforms-3/d3a8a24834f295d8078f18b8298041f7/transformed/material-1.9.0/res/values-tl/values-tl.xml",
+                    "source": "C:\\Users\\micro\\.gradle\\caches\\transforms-3\\d3a8a24834f295d8078f18b8298041f7\\transformed\\material-1.9.0\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "/home/mns/.gradle/caches/transforms-3/b3627ca143232ec2ceb6e319eb18971d/transformed/appcompat-1.6.1/res/values-tl/values-tl.xml",
+                    "source": "C:\\Users\\micro\\.gradle\\caches\\transforms-3\\ff34738e7fb960ce73fd0d6cf687f2a8\\transformed\\jetified-react-android-0.73.3-debug\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,146,223,302,385,472,556,632,706",
+                        "endColumns": "90,76,78,82,86,83,75,73,85",
+                        "endOffsets": "141,218,297,380,467,551,627,701,787"
+                    },
+                    "to": {
+                        "startLines": "38,42,60,98,100,101,102,103,104",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3507,3924,5287,8425,8593,8680,8764,8840,8914",
+                        "endColumns": "90,76,78,82,86,83,75,73,85",
+                        "endOffsets": "3593,3996,5361,8503,8675,8759,8835,8909,8995"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\micro\\.gradle\\caches\\transforms-3\\b3627ca143232ec2ceb6e319eb18971d\\transformed\\appcompat-1.6.1\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,23 +71,6 @@
                         "startOffsets": "330,441,549,662,750,856,971,1051,1128,1219,1312,1407,1501,1601,1694,1789,1883,1974,2065,2149,2258,2368,2469,2579,2697,2805,2968,8508",
                         "endColumns": "110,107,112,87,105,114,79,76,90,92,94,93,99,92,94,93,90,90,83,108,109,100,109,117,107,162,101,84",
                         "endOffsets": "436,544,657,745,851,966,1046,1123,1214,1307,1402,1496,1596,1689,1784,1878,1969,2060,2144,2253,2363,2464,2574,2692,2800,2963,3065,8588"
-                    }
-                },
-                {
-                    "source": "/home/mns/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/res/values-tl/values-tl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "105",
-                        "startColumns": "4",
-                        "startOffsets": "9000",
-                        "endColumns": "100",
-                        "endOffsets": "9096"
                     }
                 }
             ]

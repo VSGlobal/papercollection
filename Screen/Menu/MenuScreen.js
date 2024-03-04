@@ -157,7 +157,12 @@ const MenuScreen = ({ navigation }) => {
         </TouchableOpacity>
       </View>
 
-      <View
+      <TouchableOpacity
+         onPress={() => {
+          Linking.openURL(
+            'https://github.com/VSGlobal/papercollection',
+          )
+        }}
         style={[
           styles.ThreeBox,
           { borderRadius: 20, padding: '3%', flexDirection: 'column' }
@@ -192,7 +197,17 @@ const MenuScreen = ({ navigation }) => {
           >
             <Image
               source={{
-                uri: 'https://avatars.githubusercontent.com/u/84082684?v=4'
+                uri: 'https://avatars.githubusercontent.com/u/159224104?v=4'
+              }}
+              style={styles.avtar}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => openLink('https://github.com/Mns9983')}
+          >
+            <Image
+              source={{
+                uri: 'https://avatars.githubusercontent.com/u/84082684?v=4 '
               }}
               style={styles.avtar}
             />
@@ -208,7 +223,7 @@ const MenuScreen = ({ navigation }) => {
             />
           </TouchableOpacity>
         </View>
-      </View>
+      </TouchableOpacity>
       <View style={styles.ThreeBox}>
         <TouchableOpacity
           onPress={() => {

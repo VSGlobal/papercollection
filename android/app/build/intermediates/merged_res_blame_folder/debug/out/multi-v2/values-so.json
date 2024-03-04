@@ -4,7 +4,7 @@
             "outputFile": "com.papercollection.app-mergeDebugResources-35:/values-so/values-so.xml",
             "map": [
                 {
-                    "source": "/home/mns/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/res/values-so/values-so.xml",
+                    "source": "C:\\Users\\micro\\.gradle\\caches\\transforms-3\\ff34738e7fb960ce73fd0d6cf687f2a8\\transformed\\jetified-react-android-0.73.3-debug\\res\\values-so\\values-so.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
