@@ -1,86 +1,202 @@
 [
     {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_inlogo.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_inlogo.png"
     },
     {
-        "merged": "com.papercollection.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.papercollection.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_moon.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_moon.png"
     },
     {
-        "merged": "com.papercollection.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.papercollection.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_nextqn2.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_nextqn2.png"
     },
     {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_telegram.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_telegram.png"
     },
     {
-        "merged": "com.papercollection.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.papercollection.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_bookn1.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_bookn1.png"
     },
     {
-        "merged": "com.papercollection.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.papercollection.app-main-39:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
         "merged": "com.papercollection.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "com.papercollection.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\drawable_rn_edit_text_material.xml.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\drawable\\rn_edit_text_material.xml"
+        "merged": "com.papercollection.app-merged_res-37:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.papercollection.app-main-39:/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_aboutill.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_aboutill.png"
     },
     {
-        "merged": "com.papercollection.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.papercollection.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_gallery.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_gallery.png"
     },
     {
-        "merged": "com.papercollection.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.papercollection.app-main-39:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_close.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_close.png"
     },
     {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_camera.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_camera.png"
     },
     {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "com.papercollection.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.papercollection.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
         "merged": "com.papercollection.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "com.papercollection.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-merged_res-37:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\micro\\.gradle\\daemon\\8.3\\com.papercollection.app-main-39:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_shareb.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_shareb.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.papercollection.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_playstore.jpg.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_playstore.jpg"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.papercollection.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_github.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_github.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_noimage.jpg.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_noimage.jpg"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_menuw.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_menuw.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_backw.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_backw.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.papercollection.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_website.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_website.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.papercollection.app-main-39:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_sharew.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_sharew.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_quiz1.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_quiz1.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_facebook.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_facebook.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.papercollection.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "com.papercollection.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "com.papercollection.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_back.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_back.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_upload.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_upload.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_instagram.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_instagram.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_backb.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_backb.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.papercollection.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_download.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_download.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_papers.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_papers.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.papercollection.app-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_annn2.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_annn2.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_instagram.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_instagram.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_menub.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_menub.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_facebook.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_facebook.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_sunw.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_sunw.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_privacyill.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_privacyill.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_tele.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_tele.png"
+    },
+    {
+        "merged": "com.papercollection.app-merged_res-37:/drawable-mdpi_assets_icons_nophotos.png.flat",
+        "source": "com.papercollection.app-main-39:/drawable-mdpi/assets_icons_nophotos.png"
     }
 ]

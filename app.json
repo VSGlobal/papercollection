@@ -1,4 +1,11 @@
 {
   "name": "papercollection",
-  "displayName": "papercollection"
+  "displayName": "papercollection",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "b01c025d-f90a-485e-aab4-96cb77ae2877"
+      }
+    }
+  }
 }
